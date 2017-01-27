@@ -36,6 +36,7 @@ public class MaxProfitStockSellBuy {
             for (int i=0; i<n; i++)
                 System.out.print(profit[i]+" ");
             int result = profit[n-1];
+            System.out.println();
             return result;
         }
 
@@ -43,7 +44,10 @@ public class MaxProfitStockSellBuy {
         public static void main(String args[])
         {
             int price[] = {2, 30, 15, 10, 8, 25, 80};
+            for (int i=0; i<price.length; i++)
+                System.out.print(price[i]+" ");
             int n = price.length;
+            System.out.println();
             System.out.println("Maximum Profit = "+ maxProfit(price, n));
         }
 

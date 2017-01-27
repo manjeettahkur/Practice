@@ -5,7 +5,7 @@ package DynamicProgramming;
  */
 public class UglyNumber {
     public static void main(String [] args){
-        int num = getNthUglyNo(150);
+        int num = getNthUglyNo(20);
         System.out.println(num);
     }
 

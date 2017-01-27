@@ -8,7 +8,7 @@ package WLQuestions;
 public class NoGreaterThanCurrent {
     public static void main(String []args){
         int arr[] = {5, 3, 9, 8, 2, 6};
-       // methodNSquare(arr);
+        methodNSquare(arr);
 
     }
     public static void methodNSquare(int arr[]){

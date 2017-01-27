@@ -13,7 +13,7 @@ public class RemoveDuplicat {
         Scanner in = new Scanner(System.in);
         String input = in.next();
 
-        int loops = input.length()/2;
+        int loops = input.length();
         for(int i =0 ; i<loops;i++){
             for(int j = 0;j<input.length()-1;j++){
                 if(input.charAt(j)== input.charAt(j+1)){

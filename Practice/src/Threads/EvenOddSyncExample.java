@@ -13,7 +13,7 @@ public class EvenOddSyncExample {
         Thread t1 = new Thread(new Runnable() {
             public void run() {
 
-                for (int itr = 1; itr < 51; itr = itr + 2) {
+                for (int itr = 1; itr < 11; itr = itr + 2) {
                     synchronized (lock) {
                         System.out.print(" " + itr);
                         try {
@@ -29,7 +29,7 @@ public class EvenOddSyncExample {
         Thread t2 = new Thread(new Runnable() {
             public void run() {
 
-                for (int itr = 2; itr < 51; itr = itr + 2) {
+                for (int itr = 2; itr < 11; itr = itr + 2) {
                     synchronized (lock) {
                         System.out.print(" " + itr);
                         try {
