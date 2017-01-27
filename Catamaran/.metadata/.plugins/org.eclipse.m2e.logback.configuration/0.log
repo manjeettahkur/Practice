@@ -1,0 +1,2 @@
+2016-08-27 10:38:45,871 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.ops.snapdeal.io:8080/libs-release/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2016-08-27 10:38:45,897 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.ops.snapdeal.io:8080/libs-snapshot/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
